@@ -1,5 +1,7 @@
 // Interaction with files 
-const fs = require("fs")
+// const fs = require("fs")
+const os = require("os")
+console.log(os.cpus().length)
 
 // fs.writeFileSync("samplefile.txt", "Yo this is sample file , do not change anything here.")
 
